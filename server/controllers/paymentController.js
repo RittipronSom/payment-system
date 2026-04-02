@@ -16,7 +16,7 @@ exports.createOrder = (req, res) => {
     });
   });
 };
-fdfd
+
 // ✅ 2. ดึง order 
 exports.getOrder = (req, res) => {
   const id = req.params.id;
