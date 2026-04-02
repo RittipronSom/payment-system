@@ -17,9 +17,9 @@ exports.createOrder = (req, res) => {
   });
 };
 
-// ✅ 2. ดึง order
+// ✅ 2. ดึง orderดกดกดกดกดกดกดก
 exports.getOrder = (req, res) => {
-  const id = req.params.id;
+  const id = req.params.id;กหกหกห
 
   db.query("SELECT * FROM orders WHERE id = ?", [id], (err, result) => {
     if (err) return res.status(500).send(err);
